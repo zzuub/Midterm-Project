@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!--  첫 번째 공연  -->
+
+    <ImageView
+        android:id="@+id/performanceImage"
+        android:layout_width="match_parent"
+        android:layout_height="676dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/we_performance_image" />
+
+    <TextView
+        android:id="@+id/performanceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="영 웅"
+        android:gravity="center"/>
+
+    <!--  두 번째 공연  -->
+    <ImageView
+        android:id="@+id/performanceImages"
+        android:layout_width="match_parent"
+        android:layout_height="664dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wee_performance_image"/>
+
+    <TextView
+        android:id="@+id/performanceTitles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="캣 츠"
+        android:gravity="center"/>
+
+    <!--  세 번째 공연  -->
+    <ImageView
+        android:id="@+id/performanceImagess"
+        android:layout_width="match_parent"
+        android:layout_height="664dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/weee_performance_image"/>
+
+    <TextView
+        android:id="@+id/performanceTitless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="레 베 카"
+        android:gravity="center"/>
+
+</LinearLayout>
